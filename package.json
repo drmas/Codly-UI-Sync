@@ -1,0 +1,29 @@
+{
+    "name": "Codly-UI-Sync",
+    "version": "1.0.0",
+    "description": "Sync your UI code with your Titanium mobile app",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "cs": "app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/drmas/Codly-UI-Sync.git"
+    },
+    "author": "Mohamed Shaban",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/drmas/Codly-UI-Sync/issues"
+    },
+    "homepage": "https://github.com/drmas/Codly-UI-Sync",
+    "dependencies": {
+        "commander": "~2.3.0",
+        "path-extra": "~0.3.0",
+        "request": "~2.44.0",
+        "unzip": "~0.1.11",
+        "wrench": "~1.5.8"
+    }
+}
